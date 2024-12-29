@@ -44,7 +44,7 @@ class IdentityKYCWebView extends StatelessWidget {
               return MaterialPageRoute(
                 builder: (context) => InAppWebView(
                   initialUrlRequest: URLRequest(
-                    url: Uri.parse(
+                    url: WebUri(
                       "https://mobile.prembly.com?merchantKey=" +
                           merchantKey +
                           "&firstName=" +

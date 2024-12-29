@@ -48,7 +48,7 @@ class IdentityKYCWebView extends StatelessWidget {
                       "https://mobile.prembly.com?merchantKey=" +
                           merchantKey +
                           "&firstName=" +
-                          firstName! +
+                          firstName! + 
                           "&lastName=" +
                           lastName! +
                           "&email=" +

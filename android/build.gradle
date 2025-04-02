@@ -35,7 +35,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion  // Use the parent project's compileSdkVersion
+    compileSdkVersion 34  // Use the parent project's compileSdkVersion
     namespace 'com.example.flutter_identity_kyc' // Replace with your app's package name
 
     sourceSets {
